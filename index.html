@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,43 @@
     <title>Book</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div id="container">
+
+            <div id="initial">
+                <img src="./book.png" alt="livro">
+            </div>
+
+            <div id="info">
+
+                <label for="input-title">Titulo do Livro
+                    <input id='title' name="input-title" type="text" required minlength="2">
+                </label>
+
+                <label for="input-autor">Nome do Autor
+                    <input id="autor" name="input-autor" type="text" required minlength="2">
+                </label>
+
+                <label for="input-descricao" id="description">Descrição
+                    <textarea id='mensagem' name="input-msg" class="form-control" placeholder="Mensagem"
+                        id="floatingTextarea2" style="height: 100px"></textarea>
+                    <button type="button" id='git' class="button-28">Enviar</button>
+                </label>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        
+
+    </main>
+
 
     <script src="./script.js"></script>
 </body>
+
 </html>
